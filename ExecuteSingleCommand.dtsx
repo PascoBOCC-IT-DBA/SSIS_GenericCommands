@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="ExecuteSingleCommand"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{AD3E9E63-CE3D-4564-A59A-BD27BA793025}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{C2B363BA-4409-4D40-9DE1-4B7023123B0F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=BCCSQLT19A;Initial Catalog=StreetlightsAssessment;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{F5E9BA1C-4C4E-41DA-AC3E-92E6CEDF070D}BCCSQLT19A.StreetlightsAssessment;" />
+          DTS:ConnectionString="Data Source=BCCSQLT19A;Initial Catalog=StreetlightsAssessment;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-ExecuteSingleCommand-{F5E9BA1C-4C4E-41DA-AC3E-92E6CEDF070D}OLEDB_DB_Connection;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
